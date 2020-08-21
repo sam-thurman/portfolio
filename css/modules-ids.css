@@ -215,7 +215,9 @@
 
     #main > section.one {
       background-color: #81918E;
-      background-image: url("../../images/banner.jpg");
+      background-image: url("../../images/AllMaleCony.webp");
+      /* margin-top: -150px; */
+      margin-trim: all;
     }
 
     #main > section.two {
