@@ -220,10 +220,10 @@
       margin-trim: all;
     }
 
-    #main > section.two {
-      background-color: #f5fafa;
+    div.row {
+      justify-content: center;
     }
-
+    
     #main > section.three {
       background-color: #ecf1f1;
     }
