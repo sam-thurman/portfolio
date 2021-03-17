@@ -1,29 +1,10 @@
-#detect-output {
-  font-size: 50%;
-  text-align: left;
-  width: 10%;
-}
-
-#command-line-text {
-  font-size: 1.8vw;
-}
-
-.top-piece {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 0px 0px 20px 0;
-  margin: 0px 10px 0px 10px;
-}
-
 body {
   background-color: rgb(45, 44, 44);
   color: #cdfeaa;
   font-family: monospace;
 }
 
-a {
+.navbar a {
   display: block;
   outline: none;
   text-decoration: none;
@@ -51,4 +32,24 @@ a:hover {
 a:active {
   background: #265301;
   color: #cdfeaa;
+}
+
+.detect-output {
+  font-size: 50%;
+  text-align: left;
+  width: 10%;
+}
+
+.command-line-text {
+  font-size: 1.7vw;
+  flex-wrap: nowrap;
+}
+
+.top-piece {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px 0px 20px 0;
+  margin: 0px 10px 0px 10px;
 }
