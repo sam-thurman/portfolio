@@ -4,7 +4,22 @@ body {
   font-family: monospace;
 }
 
-.navbar a {
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li a {
   display: block;
   outline: none;
   text-decoration: none;
